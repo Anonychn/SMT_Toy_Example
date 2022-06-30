@@ -43,3 +43,5 @@ prt_val[i,j] - error <= eqn2 [i,j] <= prt_val[i,j] + error
 
 Next we update the array `S` and again form the equations same as above according to the case: `Case 1 or Case 2`. Continue this upto `N` times. Lastly feed it to the SMT solver and extract the solution to check whether we are able to recover `array_org`.
 
+## Output 
+If the given set of constraints is `satisfiable (sat)`, then we compare the obtained solution with `array_org`. In the case if it does not matches, it means multiple solution exists. Instead of exploring all solutions, we chooses to increase `N`, which in turns increases the number of constraints.
