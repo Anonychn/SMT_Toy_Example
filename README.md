@@ -47,5 +47,5 @@ Next we update the array `S` and again form the equations same as above accordin
 If the given set of constraints is `satisfiable (sat)`, then we compare the obtained solution with `array_org`. In the case if it does not matches, it means multiple solution exists. Instead of exploring all solutions, we chooses to increase `N`, which in turns increases the number of constraints.
 
 ## Observed Problems
-For parameters `array_size = 64; prt_len = 16 ; error = 2; N = 60`, we observed that solution time in `Case 1` the model is solvable in `8-9 sec` whereas 
+For parameters `array_size = 64; prt_len = 16 ; error = 2; N = 60`, we observed that in `Case 1` the model is solvable in `8-9 sec` whereas 
 in `Case 2`, the model is not giving solution even after long time irrespective of the fact that no. of errors in `Case 2` is very less as compared to `Case 1`. Note that for smaller set of equations, this time difference is not detectable.  
