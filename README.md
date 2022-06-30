@@ -5,7 +5,7 @@ This is a readme file for the toy example on SMT solver, Z3.
 1. [Z3-Sovler](https://github.com/Z3Prover/z3)
 
 ## Setup
-1. Install the Z3 solver with python interfaces using pip: `pip install z3-solver>=4.8.14.0`
+1. Install the Z3 solver with python interface using pip: `pip install z3-solver>=4.8.14.0`
 
 ## Functions Defined
 1. `eqn1(S)`: This function will take an array `S` as an input and return either a value or an equation depending upon whether the entries of `S` are `0/1` or some variables.
