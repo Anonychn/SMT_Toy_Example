@@ -7,6 +7,10 @@ This is a readme file for the toy example on SMT solver, Z3.
 ## Setup
 1. Install the Z3 solver with python interface using pip: `pip install z3-solver>=4.8.14.0`
 
+## Files
+1. `Toy_Example_SMT.ipynb :` It contains the script for toy example (illustration of our problem) in jupyter notebook platform.
+2. `SMT_Problem_Description.pdf`: It contains the Description of the problem that we are facing.
+
 ## Functions Defined
 1. `eqn1(S)`: This function will take an array `S` as an input and return either a value or an equation depending upon whether the entries of `S` are `0/1` or some variables.
 2. `eqn2(A)`: This function will take an array `A` as an input and return the value of an equation when applied on `A`.
