@@ -9,7 +9,7 @@ This is a readme file for the toy example on SMT solver, Z3.
 
 ## Files
 1. `Toy_Example_SMT.ipynb :` It contains the script for toy example (illustration of our problem) in jupyter notebook platform.
-2. `SMT_Problem_Description.pdf`: It contains the Description of the problem that we are facing.
+2. `SMT_Problem_Description.pdf`: It contains the description of the problem that we are facing.
 
 ## Functions Defined
 1. `eqn1(S)`: This function will take an array `S` as an input and return either a value or an equation depending upon whether the entries of `S` are `0/1` or some variables.
